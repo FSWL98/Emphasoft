@@ -1,5 +1,5 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { array, object } from "prop-types";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { array, object } from 'prop-types';
 
 type SetActionType = {
     users: array

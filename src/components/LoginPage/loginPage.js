@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { TextField, Button } from '@material-ui/core';
-import { setToken } from "../../store/tokenReducer/tokenReducer";
+import { setToken } from '../../store/tokenReducer/tokenReducer';
 import axios from 'axios';
 import { connect } from 'react-redux';
-import { API_PREFIX } from "../../Consts";
+import { API_PREFIX } from '../../Consts';
 import { useHistory } from 'react-router-dom';
 import './loginPage.css';
 
@@ -51,7 +51,7 @@ export function LoginPage(props) {
                 passwordValid: true
             }))
         })
-            .then(() => history.push('/users'))
+            .then(() => history.push('/Emphasoft/users'))
             .catch(() => setState(prevState => ({
                 ...prevState,
                 passwordValid: false,

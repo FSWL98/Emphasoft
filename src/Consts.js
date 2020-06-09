@@ -1,1 +1,1 @@
-export const API_PREFIX = 'http://emphasoft-test-assignment.herokuapp.com/';
+export const API_PREFIX = 'https://emphasoft-test-assignment.herokuapp.com/';

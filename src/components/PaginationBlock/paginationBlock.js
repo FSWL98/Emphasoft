@@ -1,5 +1,5 @@
 import React from 'react';
-import IconButton from "@material-ui/core/IconButton";
+import IconButton from '@material-ui/core/IconButton';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons'
 import FirstPageIcon from '@material-ui/icons/FirstPage';
 import LastPageIcon from '@material-ui/icons/LastPage';

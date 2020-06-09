@@ -1,20 +1,20 @@
 import React from 'react';
 import { Table, TableBody, TableHead, TableCell, TableRow, TableContainer, Paper, TableFooter } from '@material-ui/core';
-import { API_PREFIX } from "../../Consts";
+import { API_PREFIX } from '../../Consts';
 import axios from 'axios';
 import DataTable from '../DataTableContetnLoader/DataTable';
 import { connect } from 'react-redux';
-import {addUser, setUsers, updateUser} from "../../store/usersReducer/usersReducer";
+import { addUser, setUsers, updateUser } from '../../store/usersReducer/usersReducer';
 import PaginationBlock from '../PaginationBlock/paginationBlock'
-import TablePagination from "@material-ui/core/TablePagination";
+import TablePagination from '@material-ui/core/TablePagination';
 import './usersList.css'
 import { ArrowDownward, ArrowUpward, Edit, HighlightOff, Search } from '@material-ui/icons'
-import Button from "@material-ui/core/Button";
-import Input from "@material-ui/core/Input";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import IconButton from "@material-ui/core/IconButton";
-import { UserDialog } from "../UserDialog/userDialog";
+import Button from '@material-ui/core/Button';
+import Input from '@material-ui/core/Input';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
+import IconButton from '@material-ui/core/IconButton';
+import { UserDialog } from '../UserDialog/userDialog';
 
 export class UsersTable extends React.Component {
     constructor(props) {
