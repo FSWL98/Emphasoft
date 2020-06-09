@@ -1,0 +1,10 @@
+.cell {
+    width: 20%;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.addUser {
+    margin-top: 7px !important;
+}

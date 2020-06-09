@@ -1,0 +1,11 @@
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.is-active-checkbox {
+    align-self: flex-start;
+}
